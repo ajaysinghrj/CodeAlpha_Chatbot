@@ -1,22 +1,18 @@
-def chatbot():
-    print("="*40)
-    print("🤖  Welcome to ChatBot 1.0")
-    print("="*40)
-    
-    while True:
-        user_input = input("You: ").lower()
+# CodeAlpha_Chatbot 🤖
 
-        if user_input in ["hi", "hello"]:
-            print("Bot: Hello! How can I help you today?")
-        elif user_input in ["how are you", "how are you doing?"]:
-            print("Bot: I'm doing great! Thanks for asking.")
-        elif user_input in ["what is your name", "who are you"]:
-            print("Bot: I'm CodeAlphaBot, your virtual friend 🤖")
-        elif user_input in ["bye", "exit", "quit"]:
-            print("Bot: Goodbye! Have a great day! 👋")
-            break
-        else:
-            print("Bot: Sorry, I didn't understand that.")
+A simple rule-based chatbot developed using Python for the **CodeAlpha Internship (July 2025)**.
 
-if __name__ == "__main__":
-    chatbot()
+## 💡 Features
+- Handles greetings and basic questions
+- Console-based interaction
+- Uses simple if-elif logic
+
+## 🛠️ Technologies Used
+- Python
+
+## 👤 Author
+Ajay Singh R J  
+B.Tech AI&DS | Rajalakshmi Institute of Technology | Batch of 2028
+
+## 📜 Internship Submission
+Task 2 - CodeAlpha Internship Program
